@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+  A Web Developer 
+  </title>
+  <link rel="stylesheet" href="index.css" />
+  
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#Education" class="nav__link">Education</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Surya</span>
+        </h1>
+        <p>My portfolio.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Skills</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>JAVA</li>
+              </ul>
+
+              <div class="work__links">
+                
+                <a href="https://github.com/" title="View " target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="Education">
+      <div class="row">
+        <h2>Education</h2>
+        <div class="work__boxes">
+          <div class="work__box">
+            <div class="work__text">
+          <h2>Bachelor's Of Computer Applications</h2>
+          <p >(2018 - 2021)</p>
+          <h5>GLA University Mathura</h5>
+          <h2>Master of Computer Applications</h2>
+          <p >(2021 - Present)</p>
+          <h5 >VIT Chennai, Chennai</h5>
+          </div>
+          </div> 
+          </div>
+          </div>
+   
+      </div>
+      </section>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="work__box">
+          <div class="work__text">
+            <p>
+              As a beginner, while making a positive contribution with my dedication and determination, I would 
+                like to build a career, which provides me with ample opportunities to improve my skills in an 
+                appropriate manner that’s lead to value addition in the organization.
+            </p>
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <form name='registration' onSubmit="return formValidation();">
+          <label for="username">Name:</label>  
+          <input type="text" name="username" size="20" /><br> 
+          <label for="email">Email:</label>  
+          <input type="text" name="email" size="20" />  <br>
+          <label for="desc">About:</label>  
+          <textarea name="desc" id="desc" cols="20" rows="6" style="margin-top: 5px;"></textarea><br>
+     <input type="submit" name="submit" class="btn btn--pink" style="margin-top: 5px;" value="Submit" />
+          </form>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/" title="Link ">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://codepen.io/" title="Link to Codepen Profile">
+            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+      <p>
+        &copy; 2022 - designed & developed by <a href="#" class="link">Surya</a>.
+      </p>
+  
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
